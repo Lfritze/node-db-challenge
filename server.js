@@ -12,7 +12,7 @@ server.use("/api/resources", resourcesRouter);
 server.use("/api/tasks", tasksRouter);
 
 server.get("/", logger, (req, res) => {
-  res.send(`This is the node-api-3 project mic check 123....`);
+  res.send(`This is the db-challenge sprint project mic check 123....`);
 });
 
 //custom middleware
