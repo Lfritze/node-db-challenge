@@ -40,11 +40,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+Relational Database: A collection of data organized for easy retrieval and manipulation, through the structuring of entity relationships and storage of data using tables constructed of columns for categorization and rows for individual entries.
+
+SQL: The (primary) language used to manage relational databases and retrieve and write data to databases.
+
+SQL is the method of communication with the database, and the database is the location, design/links, and storage of data.
+
 - [ ] Why do tables need a `primary key`?
+
+The primary key is used to uniquely identify each data entry in the respective table. It is the unique identifier for each distinct row of data in a table, and allows for that data to be referenced in other tables, and allows retrieval or manipulation of a specific item of data via SQL. It's like the 'address' of data, or like the 'social security number' of individual entries.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foreign key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+In orer to have many to many relationships between two tables, a junction table is required. The junction table acts as a link between the two tables. The junction table stores individual relationships between the entries in each respective table, allowing for multiple relationships between distinct entries in the two tables (many to many).
 
 ## Minimum Viable Product
 
